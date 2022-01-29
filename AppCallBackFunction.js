@@ -14,6 +14,7 @@ export default function App() {
      */
     function add() {
         setCount(prevCount => prevCount + 1)
+       //setCount(oldValue => oldValue + 1) this callback function 
     }
     // Challenge: update `substract` to use a callback function
     
